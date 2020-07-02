@@ -1,4 +1,4 @@
-const reducer = (state = 'Default', action) => {
+const reducer = (state = 'Default State', action) => {
   if (action.type === 'SET_USER') {
     return { ...state, user: action.payload };
   }
